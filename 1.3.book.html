@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta charset="UTF-8">
+	<title> Booking Form</title>
+	<link rel="stylesheet"href="3.book.css">
+	
+	<script>
+	function validate(){
+			if(document.getElementById('customer name').value ==""){
+				alert('Please enter your Name');
+				document.getElementById('customer name').style.borderColor="red";
+				return false;	
+			}
+			if(document.getElementById('phone number').value ==""){
+				alert('Please enter your Phone Number');
+				document.getElementById('phone number').style.borderColor="red";
+				return false;
+			}
+			if(document.getElementById('email').value ==""){
+				alert('Please enter your Email');
+				document.getElementById('email').style.borderColor="red";
+				return false;
+			}
+
+			var select = document.getElementById('selection').value;
+			if(select=="select"){
+				alert("How many people?");
+				return false;
+			}
+			var select = document.getElementById('tourism').value;
+			if(select=="select"){
+				alert("Which Tourism and Attractions are you Interested in?");
+				return false;
+			}		
+
+			if(document.getElementById('date'). value ==""){
+				alert('Please enter a Date');
+				document.getElementById('date').style.borderColor="red";
+				return false;
+			}
+			if(document.getElementById('time'). value ==""){
+				alert('Please enter your Time In');
+				document.getElementById('time').style.borderColor="red";
+				return false;
+					}
+
+				{
+		alert("Form Submitted Succesfully!")
+				return false;
+
+}
+}
+
+</script>
+
+</head>
+<body>
+<form name="myform" action="" onsubmit="return validate()">
+	<div class="wrapper">
+		<center>	
+		<h2>TUYOK TUYOK SA MIS. OCC.</h2>
+		<h6>Please lets know what you are interested to see</h6><br><br></center>
+		<center>
+		<h4>Personal Details</h4><br>
+	</center>
+		
+		<div id="error_message"></div>
+	
+		<div class="input_field">
+			<label>Guest Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Guest Name" id="customer name">
+			</div><br>
+			<div class="input_field">
+			<label>Phone Number:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Phone Number" id="phone number">
+			</div><br>
+			<div class="input_field">
+			<label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Email" id="email">
+			</div><br>
+			<div class="input_field">
+			<center><h4>Reservation Details</h4><br></center>
+
+			<label>How many people are in your group:</label><br>
+			<center>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="selection">
+			<option value="select"> How many People?</option>
+				<option>1 people</option>
+				<option>2 people</option>
+				<option>3 people</option>
+				<option>4 people</option>
+				<option>5 people</option>
+				<option>6 people</option>
+				<option>7 people</option>
+				<option>8 people</option>
+				<option>9 people</option>
+				<option>10 or more</option>
+				</select><br><br></center>
+
+			<label>Reservation Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="date" id="date" name="date"><br><br>
+			<label>Time In:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type ="time" id= "time" name= "time"><br><br>
+			<label>Which Tourism and Attractions are you Interested :</label><br><center>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id:"tourism">
+			<option value="select"> Select</option>
+				<option>Pipe Bamboo Organ from Germany</option>
+				<option>Cotta Fort Santiago</option>
+				<option>Ambak-Ambak Falls</option>
+				<option>El Triunfu Beach</option>
+				<option>Ciriaco Pastrano Hanging Bridge</option>
+				<option>Oroquieta City Plaza </option>
+				<option>Sibucal Hot Spring</option>
+				<option>Oklahoma Beach Resort</option>
+				<option>U River</option>
+				<option>Lake Duminagat</option>
+				<option>Piduan Curtain Falls</option>
+				<option>Kapayas Island</option>
+				<option>Bao-Baon (Seven) Islands</option>
+				<option>Nazareno Dam</option>
+				<option>Baga Falls </option>
+				<option>Caluya Shrine</option>
+				<option>Floating Cottage </option>
+				<option>Aquamarine Park </option>
+				</select><br><br></center>
+		<center><br><button type="submit"> Reserve Now</button></center>
+
+		</form>
+	</div>
+</body>
+	</html>
+
+
+
+
