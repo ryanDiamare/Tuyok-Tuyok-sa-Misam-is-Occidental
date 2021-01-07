@@ -46,6 +46,26 @@ margin-bottom: 0px;
     margin-top: 3%;
     position: relative; 
 }
+.form2{
+
+    width: 90%;
+    background-image:url(images/background4.jpg);
+    border: 5px solid gold ;
+    padding: 0px;
+    margin: 8% auto 0 ;
+    margin-top: 3%;
+    position: relative; 
+}
+.form3{
+
+    width: 90%;
+    background-image:url(images/background3.jpg);
+    border: 5px solid gold ;
+    padding: 0px;
+    margin: 8% auto 0 ;
+    margin-top: 3%;
+    position: relative; 
+}
 .decor{
         width: 70%;
         background: lightgrey;
