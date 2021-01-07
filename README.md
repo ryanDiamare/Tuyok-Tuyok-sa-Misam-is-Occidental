@@ -1,3 +1,4 @@
+# Tuyok-Tuyok sa Misamis Occidental
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +17,7 @@
 			<h3>sa</h3><div>
 <div class="text-container">
     <h2>MISAMIS OCIDENTAL</h2></div>
-    <textborder: 4px solid green>
+    <textborder: 4px solid green;>
      <br><br>
   <br><br>
 	<center><a href="1.2 Misamis Occidental.html"> Click here to visit Website</a></center>
