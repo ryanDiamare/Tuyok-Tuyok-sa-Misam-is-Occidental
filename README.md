@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <head>
-<title> MISAMIS OCCIDENTAL</title>
 	<link rel="stylesheet" href="1.design.css">
 </head>
 <audio autoplay=" " src="Misamis Occidental By Jhay-know (RVW) Lyrics.mp3"> </audio>
